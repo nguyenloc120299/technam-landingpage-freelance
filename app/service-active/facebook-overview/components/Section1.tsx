@@ -7,7 +7,7 @@ const Section1 = () => {
   return (
     <div className="bg-custom-main-2 w-full p-4 t:p-[42px] l:p-[100px]">
       <div className="w-full text-center pb-10">
-        <h4 className="text-[#fff] text-[36px] font-700 leading-54 uppercase text-center">
+        <h4 className="text-[#fff] text-[28px] t:text-[36px] font-700 leading-54 uppercase text-center">
           Facebook Ads trao cho bạn điều gì?
         </h4>
       </div>
@@ -76,7 +76,7 @@ const Section1 = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#fff] leading-24 text-[18px]">{item}</p>
+                  <p className="text-[#fff] leading-24 t:text-[18px]">{item}</p>
                 </div>
               </div>
             ))}

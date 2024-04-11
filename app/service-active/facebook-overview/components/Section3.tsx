@@ -7,7 +7,7 @@ const Section3 = () => {
   return (
     <MainSection>
       <div className="flex justify-center items-center text-center mb-5 pb-10">
-        <h4 className="typography-1 text-[48px]">
+        <h4 className="typography-1 text-[28px] t:text-[48px]">
           TechNam Marketing sẽ giúp bạn thực hiện
         </h4>
       </div>
@@ -52,7 +52,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className="flex-1 flex items-center">
-              <p className="typography-2 max-w-[505px] w-full text-[20px]">
+              <p className="typography-2 max-w-[505px] w-full t:text-[20px]">
                 Hỗ trợ set up, quản trị Fanpage
               </p>
             </div>
@@ -112,7 +112,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className="flex-1 flex items-center">
-              <p className="typography-2 max-w-[505px] w-full text-[20px]">
+              <p className="typography-2 max-w-[505px] w-full t:text-[20px]">
                 Tối ưu nội dung chuẩn SEO, hình ảnh, video
               </p>
             </div>
@@ -172,7 +172,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className="flex-1 flex items-center">
-              <p className="typography-2 text-[20px] max-w-[505px] w-full">
+              <p className="typography-2 t:text-[20px] max-w-[505px] w-full">
                 Xây dựng và đo lường, xác định đối tượng và hành vi mua sắm của
                 khách hàng
               </p>
@@ -233,7 +233,7 @@ const Section3 = () => {
               </div>
             </div>
             <div className="flex-1 flex items-center">
-              <p className="typography-2 text-[20px] max-w-[505px] w-full">
+              <p className="typography-2 t:text-[20px] max-w-[505px] w-full">
                 Báo cáo trực tiếp từ tài khoản Facebook
               </p>
             </div>

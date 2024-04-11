@@ -13,10 +13,10 @@ const Section2 = () => {
   return (
     <MainSection>
       <div className="w-full text-center flex justify-center flex-col items-center mb-5 py-5">
-        <h3 className="typography-1 mb-3 !text-[40px]">
+        <h3 className="typography-1 mb-3 !text-[28px] !t:text-[40px]">
           Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả
         </h3>
-        <p className="max-w-[900px] text-center text-[#212121] text-[32px]  font-700 leading-40">
+        <p className="max-w-[900px] text-center text-[#212121] text-[20px]  t:text-[32px]  font-700 leading-40">
           Để tạo được một quảng cáo Facebook hiệu quả, bạn cần tuân thủ theo 5
           bước dưới đây
         </p>

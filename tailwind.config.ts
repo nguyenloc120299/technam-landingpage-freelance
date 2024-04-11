@@ -8,15 +8,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    borderRadius:{
-      "8":"8px",
-      "20":"20px"
+    borderRadius: {
+      "8": "8px",
+      "20": "20px",
     },
     colors: {
       "color/1": "#0040FC",
       "color/2": "#6B6A75",
-      "0A0A0A":"#0A0A0A",
-      "6C6C6C":"#6C6C6C"
+      "0A0A0A": "#0A0A0A",
+      "6C6C6C": "#6C6C6C",
     },
     screens: {
       t: "768px",
@@ -44,7 +44,7 @@ const config: Config = {
     },
     boxShadow: {
       "custom-1": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
-      "custom-2":"0px 0px 15px 0px rgba(0, 0, 0, 0.10);"
+      "custom-2": "0px 0px 15px 0px rgba(0, 0, 0, 0.10);",
     },
     extend: {
       boxShadow: {
@@ -56,14 +56,18 @@ const config: Config = {
         transparent: "transparent",
       },
       backgroundImage: {
-        "main-header":"linear-gradient(180deg, rgba(0, 51, 131, 0.50) 0%, rgba(2, 101, 255, 0.12) 97.5%)",
+        "bg-section-img1": "url(/bg/main.png)",
+        "main-header":
+          "linear-gradient(180deg, rgba(0, 51, 131, 0.50) 0%, rgba(2, 101, 255, 0.12) 97.5%)",
         "custom-main-1":
           "linear-gradient(105deg, #0265FF 7.67%, #02E1FF 67.51%, #013D99 96.98%, #013D99 96.98%)",
         "custom-main-2": "linear-gradient(90deg, #1998FF 0%, #36F 100%)",
         "custom-main-3":
           "linear-gradient(105deg, #0265FF 48.05%, #013D99 99.78%, #013D99 99.78%)",
-          "custom-main-4":"linear-gradient(179deg, #0265FF 0.69%, #0863F1 57.43%, #065EE7 134.89%), linear-gradient(180deg, #4B0DCF 0%, #D648B8 100%)",
-          "custom-main-5":"linear-gradient(52deg, #FFCE51 17.88%, #EB55B0 54.05%, #6600E9 91.46%)",
+        "custom-main-4":
+          "linear-gradient(179deg, #0265FF 0.69%, #0863F1 57.43%, #065EE7 134.89%), linear-gradient(180deg, #4B0DCF 0%, #D648B8 100%)",
+        "custom-main-5":
+          "linear-gradient(52deg, #FFCE51 17.88%, #EB55B0 54.05%, #6600E9 91.46%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

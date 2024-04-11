@@ -9,18 +9,19 @@ import clsx from "clsx";
 import NavDrawer from "./components/NavDrawer";
 
 const MainHeader = () => {
-const [isDrawer,setIsDrawer] = useState(false)
+  const [isDrawer, setIsDrawer] = useState(false)
 
   return (
     <nav
       className={clsx(
         "bg-main-header h-[88px] flex-shrink-0  w-full top-0 z-[999] absolute",
-        
+
       )}
     >
       <div className=" flex  items-center justify-between mx-auto py-4 px-8">
         <Link
           href="/"
+
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <div className="w-[200px] h-[50px]  flex-shrink-0 ">
@@ -32,7 +33,7 @@ const [isDrawer,setIsDrawer] = useState(false)
           </div>
         </Link>
         <button
-          onClick={()=>setIsDrawer(true)}
+          onClick={() => setIsDrawer(true)}
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#fff] rounded-lg l:hidden"
         >
           <svg
@@ -66,7 +67,7 @@ const [isDrawer,setIsDrawer] = useState(false)
             ))}
           </ul>
         </div>
-        <NavDrawer open={isDrawer} onClose={()=>setIsDrawer(false)}/>
+        <NavDrawer open={isDrawer} onClose={() => setIsDrawer(false)} />
       </div>
     </nav>
   );

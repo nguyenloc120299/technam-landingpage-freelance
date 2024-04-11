@@ -45,6 +45,7 @@ const NavDrawer = ({ open, onClose }: Props) => {
           {menus.map((menu, index) => (
             <li key={index}>
               <Link
+                onClick={onClose}
                 href={menu.key}
                 className="block py-2 px-3 text-color/2    text-shadow-1  uppercase text-[16px] font-700"
                 aria-current="page"

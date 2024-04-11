@@ -52,7 +52,15 @@ body::-webkit-scrollbar {
     font-weight: 400;
     line-height: 28.8px;
   }
-  
+  .typography-4 {
+    color: #fff;
+    text-align: center;
+    font-family: var(--font-lato), sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
   .text-balance {
     text-wrap: balance;
   }
