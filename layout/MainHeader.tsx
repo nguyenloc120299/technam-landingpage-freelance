@@ -14,7 +14,7 @@ const [isDrawer,setIsDrawer] = useState(false)
   return (
     <nav
       className={clsx(
-        "bg-main-header h-[88px] flex-shrink-0  w-full top-0 z-[999] fixed",
+        "bg-main-header h-[88px] flex-shrink-0  w-full top-0 z-[999] absolute",
         
       )}
     >

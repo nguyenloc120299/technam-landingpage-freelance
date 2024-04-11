@@ -10,12 +10,13 @@ import OutstandingProject from "./components/OutstandingProject";
 import Section2 from "./components/Section2";
 import FeedbackCustomer from "./components/FeedbackCustomer";
 import Partner from "./components/Partner";
+import MainSection from "@/components/common/MainSection";
 
 const HomePage = () => {
   return (
     <div className="w-full h-full">
     
-      <section className="max-w-[1280px] w-full mx-auto my-5 px-4">
+      <MainSection>
         <About />
         <div className="my-5 py-5">
           <div className="grid grid-cols-2  t:grid-cols-4 gap-4">
@@ -44,7 +45,7 @@ const HomePage = () => {
             <img src={home_2.src} alt="Techname marketing Ảnh cty 2" />
           </div>
         </div>
-      </section>
+      </MainSection>
       <Service/>
       <OutstandingProject/>
       <Section2/> 

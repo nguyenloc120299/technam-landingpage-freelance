@@ -41,7 +41,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-start mt-[-75px] md:mt-0 mb-[-75px] md:mb-0">
+      <div className="flex justify-center items-start mt-[-75px] t:mt-[-30%] mb-[-75px] md:mb-0">
         <img src={thumbnail.src} alt="Video giới thiệu TechNam Marketing" />
       </div>
     </div>
