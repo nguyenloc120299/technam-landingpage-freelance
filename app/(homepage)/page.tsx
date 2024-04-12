@@ -19,7 +19,7 @@ const HomePage = () => {
     <div className="w-full h-full">
       <MainSection>
         <About />
-        <div className="my-5 py-5">
+        <div className="my-5 py-5 t:mt-[-100px] l:mt-[10px] ">
           <div className="grid grid-cols-2  t:grid-cols-4 gap-4">
             {valueAboutBox.map((item, index) => (
               <div
