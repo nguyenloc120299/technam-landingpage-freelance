@@ -34,7 +34,7 @@ const Modal = ({
         display: isOpen ? "flex" : "none",
       }}
       className={clsx(
-        "t:inset-0 fixed left-0 right-0 top-0 z-[100]  max-h-full w-full bg-others-modal-background p-4 t:cursor-pointer ",
+        "t:inset-0 fixed left-0 right-0 top-0 z-[100]  max-h-full w-full bg-others-modal-background p-4 t:cursor-pointer h-full",
         "no-scrollbar items-center justify-center t:overflow-y-scroll",
         {
           "!p-0": size === "full",
@@ -52,7 +52,7 @@ const Modal = ({
       >
         <div
           className={clsx(
-            "relative flex flex-col overflow-hidden bg-[#fff] shadow t:rounded-[12px]",
+            "relative flex flex-col overflow-hidden bg-[#fff] shadow rounded-[12px]",
             customContainerClass,
             {
               "h-full": size === "full",
