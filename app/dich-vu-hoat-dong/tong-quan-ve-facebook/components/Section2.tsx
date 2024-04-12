@@ -70,7 +70,7 @@ const Section2 = () => {
                 src={img_lccdn1.src}
                 alt="Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả"
               />
-              <div className="h-[126px] flex flex-col flex-1 gap-2">
+              <div className="min-h-[126px] flex flex-col flex-1 gap-2">
                 <h5 className="text-color/1 font-700 leading-21 uppercase">
                   Bước 1
                 </h5>
@@ -86,7 +86,7 @@ const Section2 = () => {
                 src={img_lccdn2.src}
                 alt="Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả"
               />
-              <div className="h-[126px] flex flex-col flex-1 gap-2">
+              <div className="min-h-[126px] flex flex-col flex-1 gap-2">
                 <h5 className="text-color/1 font-700 leading-21 uppercase">
                   Bước 2
                 </h5>
@@ -102,7 +102,7 @@ const Section2 = () => {
                 src={img_lccdn3.src}
                 alt="Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả"
               />
-              <div className="h-[126px] flex flex-col flex-1 gap-2">
+              <div className="min-h-[126px] flex flex-col flex-1 gap-2">
                 <h5 className="text-color/1 font-700 leading-21 uppercase">
                   Bước 3
                 </h5>
@@ -123,7 +123,7 @@ const Section2 = () => {
                 src={img_lccdn4.src}
                 alt="Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả"
               />
-              <div className="h-[126px] flex flex-col flex-1 gap-2">
+              <div className="min-h-[126px] flex flex-col flex-1 gap-2">
                 <h5 className="text-color/1 font-700 leading-21 uppercase">
                   Bước 4
                 </h5>
@@ -139,7 +139,7 @@ const Section2 = () => {
                 src={img_lccdn5.src}
                 alt="Các bước cơ bản cần có để triển khai chiến dịch Facebook hiệu quả"
               />
-              <div className="h-[126px] flex flex-col flex-1 gap-2">
+              <div className="min-h-[126px] flex flex-col flex-1 gap-2">
                 <h5 className="text-color/1 font-700 leading-21 uppercase">
                   Bước 5
                 </h5>

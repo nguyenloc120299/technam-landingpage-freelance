@@ -30,8 +30,22 @@ body::-webkit-scrollbar {
 .text-shadow1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.text-gradient-1 {
+  background: linear-gradient(90deg, #0265ff 38.98%, #208cff 56.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @layer utilities {
+  .text-troke-color {
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0265ff;
+    font-family: var(--font-lato), sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 61px;
+  }
   .typography-1 {
     color: #0265ff;
     text-align: center;

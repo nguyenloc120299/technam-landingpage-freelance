@@ -21,7 +21,7 @@ export const menus = [
   },
   {
     name: "Dịch vụ hoạt động",
-    key: "/services",
+    key: ROUTES.SERVICE_ACTIVE,
   },
   {
     name: "lãnh đạo",
@@ -98,7 +98,7 @@ export const services = [
     title: "Các hình thức QC Facebook",
     description: `Thông thường khi doanh nghiệp mới tạo lập, mục tiêu hàng đầu chính là đưa thương hiệu quảng bá tới cho khách hàng.`,
     img: service3,
-    href: "#",
+    href: ROUTES.SERVICE_ACTIVE + ROUTES.FORM_ADS,
   },
   {
     title: "QC trên nền tảng TIKTOK",

@@ -7,9 +7,9 @@ const useBreakpoint = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 720) {
+      if (window.innerWidth < 540) {
         setBreakpoint('mobile')
-      } else if (window.innerWidth < 1080) {
+      } else if (window.innerWidth < 992) {
         setBreakpoint('tablet')
       } else {
         setBreakpoint('desktop')

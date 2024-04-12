@@ -3,6 +3,7 @@ import React from "react";
 import image_3 from "@/assets/home3.png";
 import MainSection from "@/components/common/MainSection";
 import Link from "next/link";
+import { ROUTES } from "@/routes";
 const Service = () => {
   return (
     <MainSection className="bg-custom-main-1">
@@ -70,7 +71,7 @@ const Service = () => {
                   </div>
                 </div>
                 <div className="pt-[54px]">
-                  <Link href={"/service-active"}>
+                  <Link href={ROUTES.SERVICE_ACTIVE}>
                     <div className="max-w-[324px] h-[65px] p-3 flex justify-center items-center rounded-[50px] border-[2px] border-[#fff] bg-custom-main-2 shadow-custom-1">
                       <span className="text-[#fff] text-center font-[700] ">
                         TÌM HIỂU THÊM
