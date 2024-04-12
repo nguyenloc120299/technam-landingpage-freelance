@@ -17,6 +17,9 @@ const config: Config = {
       "color/2": "#6B6A75",
       "0A0A0A": "#0A0A0A",
       "6C6C6C": "#6C6C6C",
+      D5D5D5: "#D5D5D5",
+      "6D6D6D": "#6D6D6D",
+      "others-modal-background": "rgba(0, 0, 0, 0.32)",
     },
     screens: {
       t: "768px",
@@ -39,12 +42,16 @@ const config: Config = {
       "17": "17px",
       "21": "21px",
       "24": "24px",
+      "30": "30px",
       "40": "40px",
+      "48": "48px",
       "54": "54px",
     },
     boxShadow: {
       "custom-1": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
       "custom-2": "0px 0px 15px 0px rgba(0, 0, 0, 0.10);",
+      "custom-3":
+        "0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03)",
     },
     extend: {
       boxShadow: {
@@ -54,7 +61,10 @@ const config: Config = {
       },
       backgroundColor: {
         transparent: "transparent",
+        "custom-main-6":
+          "conic-gradient(from 176deg at 52.3% 52.41%, #0265FF 0deg, #02DEFF 184.26790952682495deg, #0064FF 360deg, #013D99 360deg), #FFF",
       },
+
       backgroundImage: {
         "bg-section-img1": "url(/bg/main.png)",
         "main-header":
@@ -68,6 +78,9 @@ const config: Config = {
           "linear-gradient(179deg, #0265FF 0.69%, #0863F1 57.43%, #065EE7 134.89%), linear-gradient(180deg, #4B0DCF 0%, #D648B8 100%)",
         "custom-main-5":
           "linear-gradient(52deg, #FFCE51 17.88%, #EB55B0 54.05%, #6600E9 91.46%)",
+        "card-bg":
+          "linear-gradient(175deg, #02DEFF 18.56%, #0064FF 92.2%, #013D99 92.2%)",
+
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

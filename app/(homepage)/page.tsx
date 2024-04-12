@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
 import React from "react";
 
 import About from "./components/About";
@@ -15,7 +17,6 @@ import MainSection from "@/components/common/MainSection";
 const HomePage = () => {
   return (
     <div className="w-full h-full">
-    
       <MainSection>
         <About />
         <div className="my-5 py-5">
@@ -46,11 +47,11 @@ const HomePage = () => {
           </div>
         </div>
       </MainSection>
-      <Service/>
-      <OutstandingProject/>
-      <Section2/> 
-      <FeedbackCustomer/>
-      <Partner/>
+      <Service />
+      <OutstandingProject />
+      <Section2 />
+      <FeedbackCustomer />
+      <Partner />
     </div>
   );
 };

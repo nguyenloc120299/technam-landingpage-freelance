@@ -15,6 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
 body::-webkit-scrollbar {
   display: none;

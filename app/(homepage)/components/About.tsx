@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import thumbnail from "@/assets/thumnail.png";
+import Modal from "@/components/common/Modal";
 const About = () => {
+  const [isModal, setIsModal] = useState(false);
   return (
     <div className="grid grid-cols-1 d:grid-cols-2 px-4 gap-4">
       <div className="flex flex-col gap-2">
@@ -42,8 +44,31 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center items-start mt-[-75px] t:mt-[-30%] mb-[-75px] md:mb-0">
-        <img src={thumbnail.src} alt="Video giới thiệu TechNam Marketing" />
+        <img
+          src={thumbnail.src}
+          alt="Video giới thiệu TechNam Marketing"
+          className="cursor-pointer"
+          onClick={() => setIsModal(true)}
+        />
       </div>
+      {isModal && (
+        <Modal
+          isOpen={isModal}
+          header
+          onCancel={() => setIsModal(false)}
+          size="md"
+          customContainerClass="border-[4px] border-color/1 shadow-custom-1"
+        >
+          <div className="p-6">
+            <iframe
+              src="https://drive.google.com/file/d/1-LUPgtVeN6Wxa6XC66reaVn7BbIIFVkj/preview"
+              width="100%"
+              height="480"
+              allow=" muted"
+            ></iframe>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 };

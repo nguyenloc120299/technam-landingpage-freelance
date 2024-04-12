@@ -7,7 +7,7 @@ interface Props {
 }
 const MainSection: React.FC<Props> = ({ children,className }) => {
   return (
-    <section className={clsx("my-5 p-4 t:p-[50px] l:p-[100px]",className)}>{children}</section>
+    <section className={clsx("my-5 p-4 t:p-10 max-w-[1440px] mx-auto",className)}>{children}</section>
   );
 };
 

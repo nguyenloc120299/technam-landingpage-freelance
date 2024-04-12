@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
+import 'swiper/css';
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 import MainLayout from "@/layout/MainLayout";
 
 

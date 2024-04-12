@@ -13,11 +13,13 @@ const Section1 = () => {
       </div>
       <div className="grid grid-cols-1 t:grid-cols-2 ">
         <div className="w-full h-full  flex justify-end flex-col">
-          <img
-            src={fb_ov1.src}
-            alt=" Facebook Ads Techname"
-            className="w-full h-full object-cover"
-          />
+          <div className="max-w-[715px] w-full">
+            <img
+              src={fb_ov1.src}
+              alt=" Facebook Ads Techname"
+              className="w-full h-full object-cover"
+            />
+          </div>
           <div className="flex w-full justify-end items-center gap-2">
             <div className="w-9 h-9 bg-[#fff]  rounded-[50%] flex justify-center items-center">
               <svg

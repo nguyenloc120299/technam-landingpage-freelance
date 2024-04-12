@@ -9,7 +9,7 @@ const Section4 = () => {
                 <div className='flex flex-col justify-center text-center w-full pb-10'>
                     <div className='mb-4'>
                         <h3 className='typography-1 text-[40px] mb-3'>Tiết kiệm ngân sách tối đa</h3>
-                        <h3 className='typography-1 text-[40px]'>"Nhấn ga" chạy Quảng Cáo Hiệu Quả</h3>
+                        <h3 className='typography-1 text-[40px]'>{`"Nhấn ga" chạy Quảng Cáo Hiệu Quả`}</h3>
                     </div>
                     <p className='typography-4 text-[24px]'>TechNam Marketing với nhiều năm kinh nghiệm đảm bảo thực thi thành công hơn 10+
                         chiến dịch quảng cáo Facebook thành công cho các doanh nghiệp.
