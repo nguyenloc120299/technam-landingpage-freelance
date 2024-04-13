@@ -12,6 +12,12 @@ import takecarefb3 from "@/assets/takecarefb3.png";
 import takecarefb4 from "@/assets/takecarefb4.png";
 import takecarefb5 from "@/assets/takecarefb5.png";
 
+import img_ctnc1 from "@/assets/img-ctnc1.png.png";
+import img_ctnc2 from "@/assets/img-ctnc2.png.png";
+import img_ctnc3 from "@/assets/img-ctnc3.png.png";
+import img_ctnc4 from "@/assets/img-ctnc4.png.png";
+import img_ctnc5 from "@/assets/img-ctnc5.png.png";
+
 import { ROUTES } from "@/routes";
 
 export const menus = [
@@ -104,7 +110,7 @@ export const services = [
     title: "QC trên nền tảng TIKTOK",
     description: `Quảng cáo TikTok đem đến trọn vẹn mô hình hiển thị quảng cáo toàn phễu trong hoạt động Marketing`,
     img: service1,
-    href: "#",
+    href: ROUTES.SERVICE_ACTIVE + ROUTES.TITOK_ADS,
   },
   {
     title: "Quảng cáo đa nền tảng",
@@ -146,5 +152,63 @@ export const cardTakecareFb = [
   {
     img: takecarefb5,
     text: "Báo cáo kết quả chiến dịch thường xuyên. Dịch vụ trọn gói gồm cả theo dõi chỉ số đo lường, báo cáo và tối ưu kết quả của các bài đăng Fanpage.",
+  },
+];
+
+export const adsTitok = [
+  {
+    img: takecarefb1,
+    text: "Thương hiệu lớn. Muốn tiếp cận một lượng người dùng lớn, năng động và hiệu quả với chi phí tiết kiệm hơn các nền tảng khác",
+  },
+  {
+    img: takecarefb2,
+    text: `Cá nhân bán hàng Các cá nhân bán hàng nhỏ, lẻ muốn thúc đẩy doanh số, lợi nhuận. Đa dạng kênh bán hàng với hiệu suất tốt và tiết kiệm.`,
+  },
+  {
+    img: takecarefb3,
+    text: "Doanh nghiệp vừa và nhỏ Giúp doanh nghiệp tăng doanh số và nâng tầm thương hiệu. Phát triển thêm kênh online bán hàng/dịch vụ không phụ thuộc quá nhiều vào 1 giải pháp/nền tảng.",
+  },
+  {
+    img: takecarefb4,
+    text: "Thương hiệu cá nhân Tiktok Ads giúp bạn đẩy nhanh quá trình xây nhân hiệu/nhãn hiệu. Lượng người quan tâm là người dùng thực sự.",
+  },
+];
+
+export const dataTitokSection = [
+  {
+    title: "01. Quảng Cáo Chuyển Đổi TikTok",
+    content:
+      "Với sự trỗi dậy của sàn thương mại điện tử Tiktok, hoạt động quảng cáo video ngắn dẫn traffics về mục tiêu xem sản phẩm, mua hàng tiktok shop sẽ sớm trở thành xu hướng chủ đạo trong thời gian tới.",
+    img: img_ctnc1,
+  },
+  {
+    title: "02. Quảng Cáo Tương Tác Với Cộng Đồng",
+    content:
+      "Tập trung vào mô hình quảng cáo chuyển đổi landing page. Mục đích khách hàng điền form để lại thông tin tư vấn sau khi xem trang đích hay thực hiện một hành động chuyển đổi như click vào nút kêu gọi hành động Zalo, Messengers, gọi điện.",
+    img: img_ctnc2,
+  },
+  {
+    title: "03. Quảng Cáo Livestream Shopping Ads",
+    content:
+      "Bán hàng livestream và quảng cáo livestream là loại hình chủ đạo cho hoạt động kéo doanh số trên nền tảng TikTok. Kết hợp với video shopping ads sẽ giúp bạn tăng trưởng doanh số và đẩy nhanh hoạt động ra đơn.",
+    img: img_ctnc3,
+  },
+  {
+    title: "04. Quảng Cáo Video Shopping Ads",
+    content:
+      "Với sự phát triển nhanh chóng của sàn thương mại điện tử TikTok. Hoạt động quảng cáo video ngắn dẫn traffics về mục tiêu xem sản phẩm, mua hàng trên TikTok Shop đang là xu hướng chủ đạo ở nền Tik Tok trong những năm trở lại đây.",
+    img: img_ctnc4,
+  },
+  {
+    title: "05. Quảng Cáo Ngoại Sàn TikTok Ads",
+    content:
+      "Mục tiêu của dịch vụ này là kéo thật nhiều lượng users quan tâm từ nền tảng TikTok về trang shop trên kênh Shopee/Lazada. Tăng trưởng doanh số, lợi nhuận trên các nền tảng thương mại điện tử.",
+    img: img_ctnc5,
+  },
+  {
+    title: "06. Quảng Cáo Nhắn Tin TikTok",
+    content:
+      "Tiktok đem đến giải pháp quảng bá nhắn tin cho nhóm khách hàng cần phải tư vấn nhiều và chuyên sâu như Spa, Thẩm Mỹ Viện, nhóm sản phẩm giá trị cao, nhóm khách hàng dịch vụ doanh nghiệp (B2B)...",
+    img: img_ctnc5,
   },
 ];
