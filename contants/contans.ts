@@ -116,7 +116,7 @@ export const services = [
     title: "Quảng cáo đa nền tảng",
     description: `Google Ads- Zalo Ads - E - commerce`,
     img: service4,
-    href: "#",
+    href: ROUTES.SERVICE_ACTIVE + ROUTES.ADS_GROSS_PLATFORM,
   },
   {
     title: "Sản xuất nội dung",
@@ -174,6 +174,29 @@ export const adsTitok = [
   },
 ];
 
+export const adsCrossPlatform = [
+  {
+    img: takecarefb1,
+    title: "Tiếp cận khách hàng lớn",
+    text: "Số lượng thành viên của zalo lớn, gần 80 triệu thành viên - trong đó có 60% trong độ tuổi 18-25. Một tệp khách hàng lý tưởng.",
+  },
+  {
+    img: takecarefb2,
+    title: "Đơn giản tiện dụng",
+    text: "Thao tác tạo quảng cáo cực kỳ đơn giản, quản lý dễ dàng, nạp tiền nhanh chóng.",
+  },
+  {
+    img: takecarefb3,
+    title: "Hiệu quả tức thì",
+    text: "Nền tảng tập trung vào hiệu quả của quảng cáo ngay lập tức, bạn chỉ cần trả tiền nhận được hành động cụ thể.",
+  },
+  {
+    img: takecarefb4,
+    title: "Hiển thị thông minh",
+    text: "Công nghệ AI giúp hiển thị quảng cáo tương thích với hành vi của người tiêu dùng",
+  },
+];
+
 export const dataTitokSection = [
   {
     title: "01. Quảng Cáo Chuyển Đổi TikTok",
@@ -209,6 +232,45 @@ export const dataTitokSection = [
     title: "06. Quảng Cáo Nhắn Tin TikTok",
     content:
       "Tiktok đem đến giải pháp quảng bá nhắn tin cho nhóm khách hàng cần phải tư vấn nhiều và chuyên sâu như Spa, Thẩm Mỹ Viện, nhóm sản phẩm giá trị cao, nhóm khách hàng dịch vụ doanh nghiệp (B2B)...",
+    img: img_ctnc5,
+  },
+];
+
+export const dataGrossPlatformSection = [
+  {
+    title: "01. QC Zalo Form",
+    content:
+      "Hỗ trợ doanh nghiệp thực hiện mục tiêu thu thập dữ liệu khách hàng tiềm năng một cách đơn giản",
+    img: img_ctnc1,
+  },
+  {
+    title: "02. Quảng cáo Website",
+    content:
+      "Tăng lượng truy cập về website hoặc landing page. Chuyển người dùng đến liên kết mua hàng, liên hệ tư vấn hoặc kích thích tỷ lệ tải đối với ứng dụng di động.",
+    img: img_ctnc2,
+  },
+  {
+    title: "03. Zalo Official Account",
+    content:
+      "Bán hàng livestream và quảng cáo livestream là loại hình chủ đạo cho hoạt động kéo doanh số trên nền tảng TikTok. Kết hợp với video shopping ads sẽ giúp bạn tăng trưởng doanh số và đẩy nhanh hoạt động ra đơn.",
+    img: img_ctnc3,
+  },
+  {
+    title: "04. Quảng cáo Video",
+    content:
+      "Tiếp cận khách hàng một cách trực quan, sinh động và sáng tạo hơn. Quảng cáo hỗ trợ tăng nhận diện thương hiệu, điều hướng người dùng về trang bán hàng để chăm sóc.",
+    img: img_ctnc4,
+  },
+  {
+    title: "05. Quảng cáo sản phẩm",
+    content:
+      "Góp phần tăng tương tác khách hàng vào trang thông tin sản phẩm trên Zal Offical Account. Giúp quảng cáo sản phẩm hiệu quả hơn, tăng tỷ lệ chốt đơn .",
+    img: img_ctnc5,
+  },
+  {
+    title: "06. Quảng cáo bài viết OA",
+    content:
+      "Hình thức quảng cáo này tích hợp sẵn trên hệ sinh thái Zalo. Hỗ trợ phát triển sản phẩm thương hiệu kèm với tăng tỷ lệ chuyển đổi.",
     img: img_ctnc5,
   },
 ];

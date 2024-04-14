@@ -4,4 +4,5 @@ export const ROUTES = {
   TAKE_CARE_FANPAGE: "/cham-soc-fanpage",
   FORM_ADS: "/cac-hinh-thuc-qc-facebook",
   TITOK_ADS: "/quang-cao-tren-tiktok",
+  ADS_GROSS_PLATFORM: "/quang-cao-da-nen-tang",
 };

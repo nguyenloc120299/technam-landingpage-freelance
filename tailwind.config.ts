@@ -41,6 +41,7 @@ const config: Config = {
     },
     lineHeight: {
       "leading/1": "28.8px",
+      "14": "14px",
       "17": "17px",
       "21": "21px",
       "24": "24px",
