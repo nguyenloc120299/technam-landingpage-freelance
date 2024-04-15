@@ -122,7 +122,7 @@ export const services = [
     title: "Sản xuất nội dung",
     description: `No content`,
     img: service5,
-    href: "#",
+    href: ROUTES.SERVICE_ACTIVE + ROUTES.CONTENT_PRODUCTION,
   },
 ];
 export const dataFbAds = [
@@ -197,6 +197,31 @@ export const adsCrossPlatform = [
   },
 ];
 
+export const contentProductionCardData = [
+  {
+    img: takecarefb1,
+    title: "Xây dựng, duy trì văn hóa doanh nghiệp.",
+  },
+  {
+    img: takecarefb1,
+    title: "Thiết kế ấn phẩm quảng cáo chuyên nghiệp, đẹp, ấn tượng",
+  },
+  {
+    img: takecarefb2,
+    title: "Lan tỏa, tăng độ nhận diện thương hiệu trên thị trường",
+  },
+  {
+    img: takecarefb3,
+    title:
+      "Sáng tạo ý tưởng đổi mới để doanh nghiệp tối ưu hiệu quả kinh doanh.",
+  },
+  {
+    img: takecarefb4,
+    title:
+      "Truyền tải thông điệp thương hiệu, giúp khách hàng hiểu rõ hơn về công ty, các hoạt động, sản phẩm, văn hóa của doanh nghiệp.",
+  },
+];
+
 export const dataTitokSection = [
   {
     title: "01. Quảng Cáo Chuyển Đổi TikTok",
@@ -236,6 +261,26 @@ export const dataTitokSection = [
   },
 ];
 
+export const dataContentProductionSection4 = [
+  {
+    title: "",
+    content:
+      "100% Website thành công tiếp cận khách hàng, đảm bảo chuẩn SEO, thân thiện với người dùng và tương thích trên mọi thiết bị.",
+    img: img_ctnc1,
+  },
+  {
+    title: "",
+    content:
+      "95% khách hàng tin tưởng và hài lòng về kết quả kinh doanh đạt được. 90% tỉ lệ khách hàng quay lại và sử dụng thêm các dịch vụ khác do TechNam cung cấp.",
+    img: img_ctnc2,
+  },
+  {
+    title: "",
+    content:
+      "Đội ngũ nhân viên có chuyên môn cao, kinh nghiệm dày dặn và tận tâm với nghề, mang đến trải nghiệm dịch vụ tốt nhất cho khách hàng.",
+    img: img_ctnc3,
+  },
+]
 export const dataGrossPlatformSection = [
   {
     title: "01. QC Zalo Form",

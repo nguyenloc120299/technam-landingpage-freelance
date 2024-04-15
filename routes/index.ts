@@ -5,4 +5,5 @@ export const ROUTES = {
   FORM_ADS: "/cac-hinh-thuc-qc-facebook",
   TITOK_ADS: "/quang-cao-tren-tiktok",
   ADS_GROSS_PLATFORM: "/quang-cao-da-nen-tang",
+  CONTENT_PRODUCTION:"/san-xuat-noi-dung"
 };

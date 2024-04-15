@@ -22,6 +22,21 @@
 body::-webkit-scrollbar {
   display: none;
 }
+.after-bg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 258px;
+  width: 100%;
+  background: linear-gradient(0deg, #0265ff 50%, rgba(2, 101, 255, 0) 100%);
+}
+
+@media (max-width: 992px) {
+  .after-bg::after {
+    height: 85px;
+  }
+}
 .blur_custom1 {
   border-radius: 150px 175px 350px 325px;
   background: linear-gradient(180deg, #4ddc9e 0%, #315cfd 100%);

@@ -265,7 +265,7 @@ const AdsCrossPlatform = () => {
                 <MainSection>
                     <div className='flex justify-center items-center mb-6 pb-6'>
                         <h3 className='typography-1 text-[40px]
-                        font-600'>Dịch Vụ Của Chúng Tôi</h3>
+                        font-600'>Các Hình Thức Quảng Cáo Trên Zalo Ads</h3>
                     </div>
                     <div className='grid grid-cols-2 t:grid-cols-3 gap-4'>
                         {
@@ -277,7 +277,7 @@ const AdsCrossPlatform = () => {
                                         </div>
                                     </div>
                                     <div className='flex-1 flex flex-col p-5 gap-4'>
-                                        <h3 className='typography-1 !font-400 text-[27px] leading-30 !text-left'>01. Quảng Cáo Chuyển Đổi TikTok</h3>
+                                        <h3 className='typography-1 !font-400 text-[27px] leading-30 !text-left'>{item.title}</h3>
                                         {item.content}
                                     </div>
 
