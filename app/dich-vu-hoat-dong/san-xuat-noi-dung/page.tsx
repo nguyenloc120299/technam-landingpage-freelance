@@ -15,6 +15,11 @@ import _7 from "@/assets/link_production-content.png";
 import _8 from "@/assets/mega-menu-new-content-25.jpg.png";
 import _9 from "@/assets/mega-menu-new-content-6.jpg.png";
 import _10 from "@/assets/banner-content-production.png";
+import _11 from "@/assets/gt-1.png";
+import _12 from "@/assets/gt_2.png";
+import _13 from "@/assets/gt-3.png";
+import _14 from "@/assets/gt-4.png";
+import _bg_main from "@/assets/bg-main-1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
@@ -275,7 +280,7 @@ const ContentProduction = () => {
         <div className="w-full h-full">
           <h3 className=" text-center text-[#fff] text-[24px] font-600 uppercase leading-24">{`Truyền thông - Marketing tổng thể mang đến lợi ích "vàng" để thúc đẩy doanh số`}</h3>
 
-          <div className="grid grid-cols-1 t:grid-cols-4 gap-4 my-6">
+          <div className="grid grid-cols-1 d:grid-cols-4 gap-4 my-6">
             <div className="flex flex-col gap-4">
               <div className="flex flex-col t:flex-row gap-3">
                 <div
@@ -402,23 +407,84 @@ const ContentProduction = () => {
                 CÁC BƯỚC TRIỂN KHAI DỊCH VỤ MARKETING TỔNG THỂ
               </h3>
               <p className="text-[12px] leading-21 text-[#fff] text-left mb-6">
-                1. Phân tích, đánh giá, khảo sát thị trường và đối thủ<br/>
-                2. Xác
-                định mục tiêu của chiến dịch cần đạt được <br/>
-                3. Lập kế hoạch, xác
-                định thời gian, đối tượng và ngân sách <br/>
-                4. Xây dựng nội dung, kênh
-                truyền thông và phân bổ ngân sách5. Theo dõi, đo lường, đánh
-                giá, báo cáo tiến độ và tính hiệu quả
+                1. Phân tích, đánh giá, khảo sát thị trường và đối thủ
+                <br />
+                2. Xác định mục tiêu của chiến dịch cần đạt được <br />
+                3. Lập kế hoạch, xác định thời gian, đối tượng và ngân sách{" "}
+                <br />
+                4. Xây dựng nội dung, kênh truyền thông và phân bổ ngân sách5.
+                Theo dõi, đo lường, đánh giá, báo cáo tiến độ và tính hiệu quả
               </p>
               <div className="flex flex-col t:flex-row justify-between gap-4">
-                    <img src={_8.src}/>
-                    <img src={_9.src}/>
+                <img src={_8.src} />
+                <img src={_9.src} />
               </div>
             </div>
             <div className="flex justify-center ">
-              <img src={_10.src} className="banner"/>
+              <img src={_10.src} className="banner" />
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 6 */}
+
+      <div
+        className="w-full py-6 bg-custom-main-1 bg-cover mt-10"
+        style={{
+          background: `url(${_bg_main.src}) 100% no-repeat`,
+        }}
+      >
+        <div className="flex justify-center items-center flex-col ">
+          <h3 className="text-center  text-[#fff] font-600 leading-52\ uppercase text-[32px] t:text-[40px] m-4">
+            Lựa chọn dịch vụ Marketing tổng thể <br />
+            chuyên nghiệp tại TechNam ngay hôm nay!
+          </h3>
+          <div className="max-w-[273px] w-full h-[55px] bg-[#fff] rounded-8 flex justify-center items-center mb-6">
+            <span className="text-color/1 text-center  font-700 leading-24 text-[18px] uppercase">
+              nhận báo giá
+            </span>
+          </div>
+          <p className="text-center text-[#fff] text-[20px] font-500 leading-24 mb-4">
+            Đội ngũ tư vấn của TechNam Marketing luôn sẵn sàng hỗ trợ bạn mọi
+            lúc mọi nơi
+          </p>
+          <h3 className="text-[#fff] text-[32px] t:text-[40px] uppercase leading-52">
+            hotline: 058 800 7777
+          </h3>
+        </div>
+        <div className="my-6 grid grid-cols-2 t:grid-cols-4 gap-6">
+          <div className="max-w-[473px] h-[333px] w-full mx-auto">
+            <div
+              style={{
+                background: `url(${_11.src}) lightgray 0px -0.003px / 100% 100.002% no-repeat`,
+              }}
+              className="w-full h-full"
+            ></div>
+          </div>
+          <div className="max-w-[473px] h-[333px] w-full mx-auto">
+            <div
+              style={{
+                background: `url(${_12.src}) lightgray 0px -0.003px / 100% 100.002% no-repeat`,
+              }}
+              className="w-full h-full"
+            ></div>
+          </div>
+          <div className="max-w-[473px] h-[333px] w-full mx-auto">
+            <div
+              style={{
+                background: `url(${_13.src}) lightgray 0px -0.003px / 100% 100.002% no-repeat`,
+              }}
+              className="w-full h-full"
+            ></div>
+          </div>
+          <div className="max-w-[473px] h-[333px] w-full mx-auto">
+            <div
+              style={{
+                background: `url(${_14.src}) lightgray 0px -0.003px / 100% 100.002% no-repeat`,
+              }}
+              className="w-full h-full"
+            ></div>
           </div>
         </div>
       </div>
