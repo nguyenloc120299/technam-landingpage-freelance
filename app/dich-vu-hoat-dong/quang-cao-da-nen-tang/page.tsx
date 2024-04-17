@@ -295,12 +295,9 @@ const AdsCrossPlatform = () => {
             <MainSection>
                 <div className="w-full text-center flex justify-center flex-col items-center mb-5 py-5">
                     <h3 className="typography-1 mb-3 !text-[28px] !t:text-[40px]">
-                        Quy Trình Triển Khai Tiktok Ads
+                    Các hình thức Quảng Cáo trên sàn thương mại điện tử 
                     </h3>
-                    <p className='text-[36px]'>
-                        TechNam Marketing vẫn luôn không ngừng cải tiến quy trình để đem đến hiệu quả quảng cáo
-                        tốt nhất
-                    </p>
+                 
                 </div>
                 <div className="grid grid-cols-1 t:grid-cols-2 gap-4 mb-4 t:mb-10 t:pb-10">
                     <div className="flex flex-col gap-4">
