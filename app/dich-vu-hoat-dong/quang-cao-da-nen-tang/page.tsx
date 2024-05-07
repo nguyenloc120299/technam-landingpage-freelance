@@ -129,17 +129,17 @@ const AdsCrossPlatform = () => {
                         <div className="w-full h-full grid grid-cols-1 l:grid-cols-2">
                             <div className="flex justify-start items-center mb-5 l:mb-0 p-4">
                                 <div className="flex flex-col gap-3">
-                                    <h3 className="text-[#fff] text-[32px] d:text-[40px] font-[700] leading-[45px]">
+                                    <h3 className="text-[#fff] text-[32px] d:text-[37px] font-[700] leading-[45px]">
                                         Hiển thị quảng cáo cho khách hàng khi họ đang tìm kiếm các doanh nghiệp
                                     </h3>
-                                    <p className="text-[#fff] text-[12px] d:text-[24px] mb-4">
+                                    <p className="text-[#fff] text-[12px] d:text-[20px] mb-4">
                                         Khách hàng sẽ cảm thấy an tâm hơn khi doanh nghiệp của bạn có đầy đủ các thông tin được xác thực tại Google. Bạn chỉ phải trả tiền khi quảng cáo được khách hàng nhấp vào để đi tới trang web hoặc khi khách hàng gọi đến doanh nghiệp của bạn.
                                     </p>
-                                    <h3 className="text-[#fff] text-[32px] d:text-[40px] font-[700] leading-[45px]">
+                                    <h3 className="text-[#fff] text-[32px] d:text-[37px] font-[700] leading-[45px]">
                                         Hiển thị khi mọi người tìm kiếm sản phẩm
                                         / dịch vụ mà bạn cung cấp
                                     </h3>
-                                    <p className="text-[#fff] text-[12px] d:text-[24px] mb-4">
+                                    <p className="text-[#fff] text-[12px] d:text-[20px] mb-4">
                                         Google luôn là trang tìm kiếm hàng đầu mà mọi người sử dụng để kiếm những việc cần làm, những địa điểm muốn đến và những thứ muốn mua. Quảng cáo của bạn có thể xuất hiện trên Google ngay khi có ai đó tìm kiếm các sản phẩm hoặc dịch vụ tương tự như sản phẩm và dịch vụ của bạn.
                                     </p>
                                 </div>
@@ -226,7 +226,9 @@ const AdsCrossPlatform = () => {
                 }}
             >
                 <MainSection>
-
+                <div className='w-full my-4'>
+                    <h3 className='text-color/1 text-[32px] t:text-[40px] leading-48 font-700 uppercase text-center'>Dù bạn là doanh nghiệp nhỏ hay lớn, bạn muốn sử dụng ngân sách ít hay nhiều thì Zalo Ads vẫn luôn đồng hành cùng bạn xây dựng thương hiệu</h3>
+                </div>
                     <div className="grid grid-cols-2 t:grid-cols-2 l:grid-cols-4 gap-10">
                         {adsCrossPlatform.map((item, index) => (
                             <div
@@ -265,7 +267,7 @@ const AdsCrossPlatform = () => {
                 <MainSection>
                     <div className='flex justify-center items-center mb-6 pb-6'>
                         <h3 className='typography-1 text-[40px]
-                        font-600'>Dịch Vụ Của Chúng Tôi</h3>
+                        font-600'>Các Hình Thức Quảng Cáo Trên Zalo Ads</h3>
                     </div>
                     <div className='grid grid-cols-2 t:grid-cols-3 gap-4'>
                         {
@@ -277,7 +279,7 @@ const AdsCrossPlatform = () => {
                                         </div>
                                     </div>
                                     <div className='flex-1 flex flex-col p-5 gap-4'>
-                                        <h3 className='typography-1 !font-400 text-[27px] leading-30 !text-left'>01. Quảng Cáo Chuyển Đổi TikTok</h3>
+                                        <h3 className='typography-1 !font-400 text-[27px] leading-30 !text-left'>{item.title}</h3>
                                         {item.content}
                                     </div>
 

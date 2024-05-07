@@ -197,6 +197,32 @@ export const adsCrossPlatform = [
   },
 ];
 
+export const adsCrossPlatform1 = [
+  {
+    img: takecarefb1,
+
+    text: "Tiết kiệm được chi phí đáng kể  trong tiến trình xây dựng kế hoạch marketing thương hiệu toàn diện.",
+  },
+  {
+    img: takecarefb2,
+ 
+    text: "Được sử dụng nhân sự chất lượng bên ngoài với thời lượng làm việc đảm bảo.",
+  },
+  {
+    img: takecarefb3,
+
+    text: "Đạt được mục tiêu đề ra trong thời gian ngắn, hiệu quả cao. Không cần mất quá nhiều công sức thực hiện.",
+  },
+  {
+    img: takecarefb4,
+    text: "Không đau đầu với bài toán tuyển dụng, đào tạo, phát triển nhân sự Marketing.",
+  },
+  {
+    img: takecarefb4,
+    text: "Làm việc với đội ngũ Marketing chất lượng được đào tạo bài bản và kinh nghiệm thực chiến cao.",
+  },
+];
+
 export const contentProductionCardData = [
   {
     img: takecarefb1,
@@ -319,3 +345,43 @@ export const dataGrossPlatformSection = [
     img: img_ctnc5,
   },
 ];
+
+
+export const mktSolutionDataSection=[
+  {
+    title: "01. Phân tích chỉ số doanh nghiệp",
+    content:
+      "Thể hiện toàn diện về chiến dịch Marketing của các doanh nghiệp trong thời gian qua. Cho biết những gì hiệu quả và những gì cần cải thiện để điều chỉnh lại chiến dịch Marketing của mình.",
+    img: img_ctnc1,
+  },
+  {
+    title: "02. Lên chiến lược campaign",
+    content:
+      "Nắm rõ cái nhìn của khách hàng tiềm năng và đối thủ, qua đó đánh giá đúng kênh phân phối và lập đúng kế hoạch marketing.",
+    img: img_ctnc2,
+  },
+  {
+    title: "03. Lên chiến lược tối ưu quảng cáo",
+    content:
+      "Xác định mục tiêu của chiến dịch, chọn đúng đối tượng, tạo quảng cáo hấp dẫn và theo dõi kết quả để thực hiện các điều chỉnh cần thiết.",
+    img: img_ctnc3,
+  },
+  {
+    title: "04. Lên kế hoạch sản xuất content định kỳ",
+    content:
+      "Tạo và xây dựng nội dung fanpage cho shop và doanh nghiệp, content hình ảnh chất lượng và chuyên nghiệp, phân phối đến khách hàng thường xuyên.",
+    img: img_ctnc4,
+  },
+  {
+    title: "05. Thu hút khách hàng mục tiêu",
+    content:
+      "Mỗi doanh nghiệp sẽ được đội ngũ chuyên viên tư vấn tệp marketing riêng, với những giải pháp tiếp cận khách hàng riêng và tiết kiệm chi phí đầu tư.",
+    img: img_ctnc5,
+  },
+  {
+    title: "06. Khẳng định thương hiệu",
+    content:
+      "Hoàn thiện hệ thống Marketing, định hình và khẳng định vị thế của doanh nghiệp trong thị trường. Xây dựng ấn tượng thương hiệu theo đúng chiến lược đã đề ra.",
+    img: img_ctnc5,
+  },
+]
