@@ -222,7 +222,32 @@ export const adsCrossPlatform1 = [
     text: "Làm việc với đội ngũ Marketing chất lượng được đào tạo bài bản và kinh nghiệm thực chiến cao.",
   },
 ];
-
+export const adsCrossPlatform3= [
+  {
+    img: takecarefb1,
+    title: "Tăng trải nghiệm người dùng",
+  },
+  {
+    img: takecarefb2,
+    title: "Giảm chi phí Quảng cáo Google",
+  },
+  {
+    img: takecarefb3,
+    title: "SEO từ khóa lên Top nhanh",
+  },
+  {
+    img: takecarefb4,
+    title: "Tăng hiệu suất chuyển đổi",
+  },
+  {
+    img: takecarefb4,
+    title: "Tăng hiệu suất đầu tư",
+  },
+  {
+    img: takecarefb2,
+    title: "Nâng tầm giá trị thương hiệu",
+  },
+];
 export const contentProductionCardData = [
   {
     img: takecarefb1,
@@ -345,7 +370,44 @@ export const dataGrossPlatformSection = [
     img: img_ctnc5,
   },
 ];
-
+export const dataGrossPlatformSection1 = [
+  {
+    title: "01. QC Zalo Form",
+    content:
+      "Hỗ trợ doanh nghiệp thực hiện mục tiêu thu thập dữ liệu khách hàng tiềm năng một cách đơn giản",
+    img: img_ctnc1,
+  },
+  {
+    title: "02. Quảng cáo Website",
+    content:
+      "Tăng lượng truy cập về website hoặc landing page. Chuyển người dùng đến liên kết mua hàng, liên hệ tư vấn hoặc kích thích tỷ lệ tải đối với ứng dụng di động.",
+    img: img_ctnc2,
+  },
+  {
+    title: "03. Zalo Official Account",
+    content:
+      "Bán hàng livestream và quảng cáo livestream là loại hình chủ đạo cho hoạt động kéo doanh số trên nền tảng TikTok. Kết hợp với video shopping ads sẽ giúp bạn tăng trưởng doanh số và đẩy nhanh hoạt động ra đơn.",
+    img: img_ctnc3,
+  },
+  {
+    title: "04. Quảng cáo Video",
+    content:
+      "Tiếp cận khách hàng một cách trực quan, sinh động và sáng tạo hơn. Quảng cáo hỗ trợ tăng nhận diện thương hiệu, điều hướng người dùng về trang bán hàng để chăm sóc.",
+    img: img_ctnc4,
+  },
+  {
+    title: "05. Quảng cáo sản phẩm",
+    content:
+      "Góp phần tăng tương tác khách hàng vào trang thông tin sản phẩm trên Zal Offical Account. Giúp quảng cáo sản phẩm hiệu quả hơn, tăng tỷ lệ chốt đơn .",
+    img: img_ctnc5,
+  },
+  {
+    title: "06. Quảng cáo bài viết OA",
+    content:
+      "Hình thức quảng cáo này tích hợp sẵn trên hệ sinh thái Zalo. Hỗ trợ phát triển sản phẩm thương hiệu kèm với tăng tỷ lệ chuyển đổi.",
+    img: img_ctnc5,
+  },
+];
 
 export const mktSolutionDataSection=[
   {
