@@ -11,7 +11,7 @@ const NavDrawer = ({ open, onClose }: Props) => {
   return (
     <div
       className={clsx(
-        "fixed top-0  z-40 h-screen p-4 overflow-y-auto transition-transform   bg-white w-80 bg-[#fff]",
+        "fixed top-0  z-40 h-full p-4 overflow-y-auto transition-transform   bg-white w-[400px] bg-[#fff]",
         {
           "right-0": open,
           "right-[-100%] translate-x-full": !open,

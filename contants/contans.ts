@@ -28,11 +28,50 @@ export const menus = [
   {
     name: "Dịch vụ hoạt động",
     key: ROUTES.SERVICE_ACTIVE,
+    subMenus: [
+      {
+        name: "Giải pháp MKT tổng thể",
+        key: ROUTES.SERVICE_ACTIVE,
+      },
+      {
+        name: "QC - Đa nền tảng",
+        key: ROUTES.SERVICE_ACTIVE,
+        subMenus: [
+          {
+            name: "FACEBOOK ADS",
+            key: ROUTES.SERVICE_ACTIVE,
+            subMenus: [
+              {
+                name: "CÁC HÌNH THỨC QUẢNG CÁO FACEBOOK",
+                key: ROUTES.SERVICE_ACTIVE,
+              }
+            ]
+          },
+          {
+            name: "TITOK ADS",
+            key: ROUTES.SERVICE_ACTIVE,
+          },
+          {
+            name: "GOOGLE ADS",
+            key: ROUTES.SERVICE_ACTIVE,
+          },
+        ],
+      },
+      {
+        name: "Sản xuất nội dung",
+        key: ROUTES.SERVICE_ACTIVE,
+      },
+      {
+        name: "Dịch vụ chăm sóc FANPAGE",
+        key: ROUTES.SERVICE_ACTIVE,
+      },
+      {
+        name: "WEB - APP - LANDING PAGE",
+        key: ROUTES.SERVICE_ACTIVE,
+      },
+    ],
   },
-  {
-    name: "lãnh đạo",
-    key: "/leadership",
-  },
+
   {
     name: "tin tức sự kiện",
     key: "/event",
@@ -205,7 +244,7 @@ export const adsCrossPlatform1 = [
   },
   {
     img: takecarefb2,
- 
+
     text: "Được sử dụng nhân sự chất lượng bên ngoài với thời lượng làm việc đảm bảo.",
   },
   {
@@ -222,7 +261,7 @@ export const adsCrossPlatform1 = [
     text: "Làm việc với đội ngũ Marketing chất lượng được đào tạo bài bản và kinh nghiệm thực chiến cao.",
   },
 ];
-export const adsCrossPlatform3= [
+export const adsCrossPlatform3 = [
   {
     img: takecarefb1,
     title: "Tăng trải nghiệm người dùng",
@@ -331,7 +370,7 @@ export const dataContentProductionSection4 = [
       "Đội ngũ nhân viên có chuyên môn cao, kinh nghiệm dày dặn và tận tâm với nghề, mang đến trải nghiệm dịch vụ tốt nhất cho khách hàng.",
     img: img_ctnc3,
   },
-]
+];
 export const dataGrossPlatformSection = [
   {
     title: "01. QC Zalo Form",
@@ -409,7 +448,7 @@ export const dataGrossPlatformSection1 = [
   },
 ];
 
-export const mktSolutionDataSection=[
+export const mktSolutionDataSection = [
   {
     title: "01. Phân tích chỉ số doanh nghiệp",
     content:
@@ -446,4 +485,4 @@ export const mktSolutionDataSection=[
       "Hoàn thiện hệ thống Marketing, định hình và khẳng định vị thế của doanh nghiệp trong thị trường. Xây dựng ấn tượng thương hiệu theo đúng chiến lược đã đề ra.",
     img: img_ctnc5,
   },
-]
+];
