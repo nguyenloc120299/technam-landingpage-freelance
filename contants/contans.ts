@@ -447,7 +447,39 @@ export const dataGrossPlatformSection1 = [
     img: img_ctnc5,
   },
 ];
+export const dataGrossPlatformSection2 = [
+  {
+    title: "Tiếp cận khách hàng tiềm năng hiệu quả",
+    content:
+      "Với sự trỗi dậy của sàn thương mại điện tử Tiktok, hoạt động quảng cáo video ngắn dẫn traffics về mục tiêu xem sản phẩm, mua hàng tiktok shop sẽ sớm trở thành xu hướng chủ đạo trong thời gian tới.",
+    img: img_ctnc1,
+  },
+  {
+    title: "Tăng doanh số và lợi nhuận",
+    content:
+      "Thu hút khách truy cập trang web, nâng cao tỷ lệ chuyển đổi, theo dõi hiệu quả chiến dịch.",
+    img: img_ctnc2,
+  },
+  {
+    title: "Dễ dàng sử dụng và quản lý",
+    content:
+      "Giao diện đơn giản, ngân sách linh hoạt, chỉ phải trả phí khi khách hàng nhấp vào quảng cáo.",
+    img: img_ctnc3,
+  },
+  {
+    title: "Tăng nhận diện thương hiệu",
+    content:
+      " Khi quảng cáo của bạn được hiển thị thường xuyên, thương hiệu của bạn sẽ được nhiều người biết đến hơn.",
+    img: img_ctnc4,
+  },
+  {
+    title: "Tăng uy tín doanh nghiệp",
+    content:
+      "Việc xuất hiện trên Google Ads giúp tăng uy tín và sự tin tưởng của khách hàng đối với doanh nghiệp của bạn.",
+    img: img_ctnc5,
+  },
 
+];
 export const mktSolutionDataSection = [
   {
     title: "01. Phân tích chỉ số doanh nghiệp",

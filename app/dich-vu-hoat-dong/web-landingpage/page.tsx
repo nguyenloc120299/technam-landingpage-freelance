@@ -13,8 +13,7 @@ import img_lccdn2 from "@/assets/img-lccdn2.png.png";
 import img_lccdn3 from "@/assets/img-lccdn3.png.png";
 import img_lccdn11 from "@/assets/img-lccdn11.png.png";
 import gb_ov2 from "@/assets/gbov2.png";
-import LeftArrow from "@/icons/LeftArrow";
-import RightArrow from "@/icons/RightArrow";
+
 
 const WebLandingPage = () => {
   return (

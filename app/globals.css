@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   position: relative;
 }
 
@@ -39,7 +39,12 @@ body::-webkit-scrollbar {
   width: 100%;
   background: linear-gradient(0deg, #0265ff 50%, rgba(2, 101, 255, 0) 100%);
 }
-
+.text-linear-1 {
+  background: linear-gradient(270deg, #0265ff 95%, #013d99 4.49%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 @media (max-width: 992px) {
   .after-bg::after {
     height: 85px;
