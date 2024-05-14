@@ -22,6 +22,8 @@ const MainHeader = () => {
 
   useOnClickOutside(ref1,()=>{
     setIsShowDropdownMenu(false)
+    setIsShowDropdownMenu1(false)
+    setIsShowDropdownMenu2(false)
   })
 
   useEffect(() => {
@@ -116,9 +118,10 @@ const MainHeader = () => {
                             {!submenu?.subMenus ? (
                               <li key={index}>
                                 <Link
-                                  href={menu.key}
+                                  href={submenu.key}
                                   className="block py-2 px-3 text-[#000]  rounded  text-shadow-1  uppercase text-[14px]  d:text-[16px] font-lato"
                                   aria-current="page"
+                                  onClick={()=>setIsShowDropdownMenu(false)}
                                 >
                                   {submenu.name}
                                 </Link>
@@ -148,9 +151,15 @@ const MainHeader = () => {
                                           {!sub1?.subMenus ? (
                                             <li key={index}>
                                               <Link
-                                                href={menu.key}
+                                                href={sub1.key}
                                                 className="block py-2 px-3 text-[#000]  rounded  text-shadow-1  uppercase text-[14px]  d:text-[16px] font-lato"
                                                 aria-current="page"
+                                                onClick={()=>{
+                                                  setIsShowDropdownMenu(false)
+                                                  setIsShowDropdownMenu1(false)
+                                                  setIsShowDropdownMenu2(false)
+                                                }}
+                                                
                                               >
                                                 {sub1.name}
                                               </Link>
@@ -185,9 +194,14 @@ const MainHeader = () => {
                                                       (sub2, index) => (
                                                         <li key={index}>
                                                           <Link
-                                                            href={menu.key}
+                                                            href={sub2.key}
                                                             className="block py-2 px-3 text-[#000]  rounded  text-shadow-1  uppercase text-[14px]  d:text-[16px] font-lato"
                                                             aria-current="page"
+                                                            onClick={()=>{
+                                                              setIsShowDropdownMenu(false)
+                                                              setIsShowDropdownMenu1(false)
+                                                              setIsShowDropdownMenu2(false)
+                                                            }}
                                                           >
                                                             {sub2.name}
                                                           </Link>

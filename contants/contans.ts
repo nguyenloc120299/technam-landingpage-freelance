@@ -31,43 +31,41 @@ export const menus = [
     subMenus: [
       {
         name: "Giải pháp MKT tổng thể",
-        key: ROUTES.SERVICE_ACTIVE,
+        key: ROUTES.MKT_SOLUTION,
       },
       {
         name: "QC - Đa nền tảng",
-        key: ROUTES.SERVICE_ACTIVE,
         subMenus: [
           {
             name: "FACEBOOK ADS",
-            key: ROUTES.SERVICE_ACTIVE,
             subMenus: [
               {
                 name: "CÁC HÌNH THỨC QUẢNG CÁO FACEBOOK",
-                key: ROUTES.SERVICE_ACTIVE,
+                key: ROUTES.FORM_ADS,
               }
             ]
           },
           {
             name: "TITOK ADS",
-            key: ROUTES.SERVICE_ACTIVE,
+            key: ROUTES.TITOK_ADS,
           },
           {
             name: "GOOGLE ADS",
-            key: ROUTES.SERVICE_ACTIVE,
+            key: ROUTES.GOOGLE_ADS,
           },
         ],
       },
       {
         name: "Sản xuất nội dung",
-        key: ROUTES.SERVICE_ACTIVE,
+        key: ROUTES.PRODUCTION_CONTENT,
       },
       {
         name: "Dịch vụ chăm sóc FANPAGE",
-        key: ROUTES.SERVICE_ACTIVE,
+        key: ROUTES.TAKE_CARE_FANPAGE_MENU,
       },
       {
         name: "WEB - APP - LANDING PAGE",
-        key: ROUTES.SERVICE_ACTIVE,
+        key: ROUTES.WEB_LANDINGPAGE,
       },
     ],
   },
